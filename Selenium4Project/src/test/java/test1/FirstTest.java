@@ -8,6 +8,8 @@ public class FirstTest {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
+		
+		driver.navigate().to("https://google.com/samsung");s
 
 	}
 
