@@ -1,6 +1,7 @@
 package test1;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -52,8 +53,25 @@ public class Trytestingthis {
 		Thread.sleep(1200);
 		driver.findElement(By.xpath("//input[@name='option3' and @id='moption']")).click();
 		
-
+//		datalist
+		WebElement box = driver.findElement(By.xpath("//input[@list='datalists' and @name='Options']"));
+		box.sendKeys("Chocolate");
+		
+	
+		
 
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

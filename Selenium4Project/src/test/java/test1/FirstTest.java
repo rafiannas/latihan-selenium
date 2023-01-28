@@ -13,7 +13,7 @@ public class FirstTest {
 		
 		driver.get("http://google.com");
 		
-		driver.navigate().to("https://google.com/samsung");s
+		driver.navigate().to("https://google.com/samsung");
 
 	}
 
