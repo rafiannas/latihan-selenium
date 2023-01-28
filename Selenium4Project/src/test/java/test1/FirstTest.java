@@ -12,6 +12,8 @@ public class FirstTest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://google.com");
+		
+		driver.navigate().to("https://google.com/samsung");s
 
 	}
 
